@@ -8,11 +8,7 @@
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Run the Application
-- In order to run the application you can:
-
-Direct open live Demo: https://moonfallmaple.github.io/myreads/
-
-- Or run it on your computer
+In order to run the application you can:
 
 Clone or fork this project:
 
