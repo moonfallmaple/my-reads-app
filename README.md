@@ -5,7 +5,7 @@ Homepage
 <img src="./demo1.png" width = "900" height = "350" alt="图片名称" align=center /></b>
 
 SearchBooks
-<img src="./demo2.png" width = "1000" height = "700" alt="图片名称" align=center />
+<img src="./demo2.png" width = "1000" height = "600" alt="图片名称" align=center />
 </div>
 
 
