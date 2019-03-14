@@ -17,31 +17,35 @@ class SearchBooks extends React.Component {
           ? books.map(book => [book.id, book])
           : []
       )
-      this.setState(currentState => ({
-        ...currentState,
-        myBooks,
-      }))
+      this.setState({
+        myBooks:myBooks
+      })
     })
   }
 
   handleQueryChange = event => {
     const query = event.target.value
-    this.setState(currentState => ({
-      ...currentState,
-      query
-    }))
+    this.setState(
+      { query:query}
+    )
     if (query.length > 0) {
       search(query).then(books => {
-        this.setState(currentState => ({
-          ...currentState,
+        this.setState({
           books: books.length ? books : [],
-        }))
+        })
       })
+    }
+    if (query.length === 0) {
+        this.setState({
+          books: [],
+        })
+    
     }
   }
 
   render = () => {
     const { query, books, myBooks } = this.state
+    console.log(myBooks)
     return (
       <div className="search-books">
         <div className="search-books-bar">
