@@ -1,5 +1,12 @@
 # My Reads APP
 
+- This project's goal is to create a bookshelf app that allows to select and categorize books you have read, are currently reading, or want to read. The project emphasizes using React to build the application and provides an API server and client library that will use to persist information as you interact with the application.
+
+- Project created as part of the Udacity Front-End Developer Nanodegree.
+
+- [myreads demo](https://moonfallmaple.github.io/myreads/)
+
+
 <div  align="center">
 Homepage
 <img src="./demo1.png" width = "900" height = "350" alt="图片名称" align=center /></b>
@@ -9,14 +16,9 @@ SearchBooks
 </div>
 
 
-## Description
-- This project's goal is to create a bookshelf app that allows to select and categorize books you have read, are currently reading, or want to read. The project emphasizes using React to build the application and provides an API server and client library that will use to persist information as you interact with the application.
 
-- Project created as part of the Udacity Front-End Developer Nanodegree.
 
-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Run the Application
+## Steps to install
 In order to run the application you can:
 
 Clone or fork this project:
