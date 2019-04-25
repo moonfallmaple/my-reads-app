@@ -4,7 +4,7 @@
 
 - Project created as part of the Udacity Front-End Developer Nanodegree.
 
-- [myreads demo](https://moonfallmaple.github.io/myreads/)
+- [myreads demo](https://moonfallmaple.github.io/myreads-demo/)
 
 
 <div  align="center">
